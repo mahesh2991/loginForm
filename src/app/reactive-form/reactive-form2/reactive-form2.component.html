@@ -1,0 +1,21 @@
+<p>reactive-form2 works!</p>
+<form action="" [formGroup]="addLoanType">
+  <div>
+    <label for="">Loan Name</label>
+    <input type="text" formControlName="loanName">
+  </div>
+  <br>
+  <div>
+    <label for="">Loan Type</label>
+    <input type="text" formControlName="loanType">
+  </div>
+  <br>
+
+  <div>
+    <label for="">Loan Describe</label>
+    <textarea formControlName="loanDescription"></textarea>
+  </div>
+  <br>
+  <button (click)="LoanType()">click</button>
+
+</form>

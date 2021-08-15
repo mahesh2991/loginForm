@@ -1,0 +1,9 @@
+<p>prom-obs-country-data works!</p>
+<div>
+  <h2>Search for country names</h2>
+  <input type="text" class="form-control" #country (keyup)="search(country.value)" >
+</div>
+<hr>
+<div>
+  <li *ngFor="let x of countryData">{{x.name}}</li>
+</div>

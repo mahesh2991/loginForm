@@ -1,0 +1,96 @@
+*{
+  font-family: play;
+}
+.box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 800px;
+  background: rgba(0,0,0,0.4);
+  padding: 40px;
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,1)
+
+}
+.box h2{
+  margin: 0 0 30px;
+  padding: 0;
+  color: white;
+  text-align: center;
+}.box .inputBox{
+  position: relative;
+
+ }
+ .box .inputBox input{
+   width: 100%;
+   padding: 10px 0;
+   font-size: 16px;
+   color: black;
+   font-weight: bold;
+   letter-spacing: 1px;
+   margin-bottom:30px ;
+   border: none;
+   border-bottom: 1px solid white;
+   background: transparent;
+   outline: none;
+   color: cadetblue;
+
+ }
+ .box .inputBox label{
+   position: absolute;
+   top: 0;
+   left: 0;
+   padding: 10px 0;
+   font-size: 16px;
+   color: white;
+   pointer-events: none;
+   letter-spacing: 1px;
+   transition: 0.5s;
+ }
+ .box .inputBox input:focus~ label,.box .inputBox input:valid~ label{
+   top: -25px;
+   left: 0;
+   font-weight: bold;
+   font-size: 14px;
+   color: aqua;
+ }
+ .box input[type="submit"]{
+   background: transparent;
+   color: white;
+   font-weight: bold;
+   cursor: pointer;
+   border-radius: 7px;
+   margin-left: 63px;
+   border: 1px solid white;
+   box-shadow: 3px 3px gray;
+ }
+.box input[type="button"]{
+  background: transparent;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 7px;
+  margin-left: 52px;
+  border: 1px solid white;
+  box-shadow: 3px 3px gray;
+}
+.box input[type="button"]:hover{
+  background: darkslateblue;
+}
+
+.box input[type="submit"]:hover{
+  background: darkslateblue;
+
+}
+
+
+ .regformGroup{
+   color: white;
+   font-family: play;
+   font-weight: bold;
+ }
+ .Uname{
+   color: white;
+ }
+

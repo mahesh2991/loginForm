@@ -1,0 +1,11 @@
+div{
+  text-align: center;
+}
+div input{
+  width: 50%;
+  margin-left: 359px;
+}
+table,th,td{
+  border:1px solid black;
+}
+
